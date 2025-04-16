@@ -20,7 +20,7 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import	 "colors/ef-winter.rasi"
+@import	 "colors/ef-autumn.rasi"
 
 * {
     border-colour:               var(selected);

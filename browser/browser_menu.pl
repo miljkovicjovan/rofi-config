@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-my $browser = "brave";
+my $browser = "zen-browser";
 my $config = "$ENV{HOME}/.config/rofi/browser/config.rasi";
 
 # for web dev reasons
@@ -9,17 +9,10 @@ my ($lh, $local_ip) = $ip_addr =~ /(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/g;
 
 # add your bookmarks here "Title -> url" (" -> " is important)
 my @options = (
+    "Github -> github.com/miljkovicjovan",
     "Youtube -> youtube.com/feed/subscriptions",
     "Lichess -> lichess.org",
-    "Github -> github.com/anhsirk0",
     "Reddit -> reddit.com",
-    "Mail -> mail.yandex.com",
-    "fm6000 -> github.com/anhsirk0/fetch-master-6000",
-    "network 3000 -> http://" . $local_ip . ":3000",
-    "network 4000 -> http://" . $local_ip . ":4000",
-    "network 8000 -> http://" . $local_ip . ":8000",
-    "3000 -> http://localhost:3000",
-    "4000 -> http://localhost:4000",
     "WhatsApp web -> web.whatsapp.com"
     );
 

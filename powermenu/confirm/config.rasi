@@ -13,7 +13,7 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import	 "colors/ef-trio-light.rasi"
+@import	 "colors/ef-autumn.rasi"
 
 /*****----- Main Window -----*****/
 window {

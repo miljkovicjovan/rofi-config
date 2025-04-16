@@ -9,14 +9,19 @@
 
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun";
+	  modi:                       "drun";
     show-icons:                 true;
     display-drun:               " Applications";
-	drun-display-format:        "{name}";
+	  drun-display-format:        "{name}";
 }
 
 /*****----- Global Properties -----*****/
-@import	 "colors/ef-cherie.rasi"
+@import	 "colors/ef-autumn.rasi"
+
+* {
+    font:                        "feather 18";
+}
+
 
 /*****----- Main Window -----*****/
 window {
@@ -76,13 +81,13 @@ textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
     str:                         "::";
-    padding:                     15px;
+    padding:                     20px 15px 15px 15px;
     background-color:            inherit;
     text-color:                  inherit;
 }
 entry {
     enabled:                     true;
-    padding:                     15px 0px;
+    padding:                     20px 0px 15px 0px;
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
@@ -151,13 +156,14 @@ element-icon {
     cursor:                      inherit;
 }
 element-text {
-    padding:                     10px;
+    padding:                     15px 10px 10px 10px;
     background-color:            transparent;
     text-color:                  inherit;
     highlight:                   inherit;
     cursor:                      inherit;
     vertical-align:              0.5;
     horizontal-align:            0.5;
+    line-height:                 1.0;
 }
 element-text selected {
     border-radius:               100%;
